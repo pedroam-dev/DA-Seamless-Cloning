@@ -18,4 +18,4 @@ center = (800,100)
 output = cv2.seamlessClone(src, dst, src_mask, center, cv2.NORMAL_CLONE)
  
 # Save result
-cv2.imwrite("images/opencv-seamless-cloning-example.jpg", output);
+cv2.imwrite("images/opencv-seamless-cloning-example.jpg", output)
